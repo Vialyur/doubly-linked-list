@@ -21,6 +21,7 @@ class LinkedList {
             this._tail.next = node;
             node.prev = this._tail;
             this._tail = node;
+
         }
 
         this._length += 1;
@@ -95,7 +96,8 @@ class LinkedList {
         this._head = this._tail;
         this._tail = tmp;
         
-        let current 
+        
+
 
         return this;
     }
