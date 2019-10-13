@@ -139,7 +139,7 @@ describe('LinkedList', () => {
         });
     });
     describe('#reverse', () => {
-        it('should reverse the list', () => {
+        it.only('should reverse the list', () => {
             const list = new LinkedList();
 
             list.append(1);
